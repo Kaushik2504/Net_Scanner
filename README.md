@@ -2,28 +2,25 @@
 This Python-based Network Scanner is designed to detect active devices on a local network using ICMP ping, ARP requests, and MAC address lookups. It provides insights into connected devices, including their IP addresses, hostnames, MAC addresses, and manufacturers
 Features
 
-Ping-Based Device Detection: Asynchronously pings devices to check if they are online.
+i) Ping-Based Device Detection: Asynchronously pings devices to check if they are online.
 
-ARP-Based Discovery: Uses ARP requests to detect MAC addresses in the subnet.
+ii) ARP-Based Discovery: Uses ARP requests to detect MAC addresses in the subnet.
 
-MAC Address Manufacturer Lookup: Fetches manufacturer details using an external API.
+iii) MAC Address Manufacturer Lookup: Fetches manufacturer details using an external API.
 
-Fast and Efficient Scanning: Uses asyncio for non-blocking execution.
+iv) Fast and Efficient Scanning: Uses asyncio for non-blocking execution.
 
 Requirements
 
 Ensure you have the following dependencies installed:
-pip install scapy requests
+1) pip install scapy requests
 
-Installation
+Installation guide
 
 Clone the repository and navigate to the project directory:
-git clone https://github.com/yourusername/NetScanner.git
-cd NetScanner
-
-Usage
-
-Run the script and provide a network range when prompted (e.g., 192.168.1.0/24).
+1) git clone https://github.com/yourusername/NetScanner.git
+2) cd NetScanner
+3) Run the script and provide a network range when prompted (e.g., 192.168.1.0/24).
 python Net_Scanner.py
 
 Example Output:
