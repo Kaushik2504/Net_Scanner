@@ -20,8 +20,8 @@ Installation guide
 Clone the repository and navigate to the project directory:
 1) git clone https://github.com/yourusername/NetScanner.git
 2) cd NetScanner
-3) Run the script and provide a network range when prompted (e.g., 192.168.1.0/24).
-python Net_Scanner.py
+3) Run the script with sudo and provide a network range when prompted (e.g., 192.168.1.0/24).
+sudo python Net_Scanner.py
 
 Example Output:
 Enter the network address (e.g., 192.168.1.0/24): 192.168.1.0/24
